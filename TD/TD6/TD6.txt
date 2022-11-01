@@ -1,0 +1,34 @@
+def affichage_inverse(liste L)
+{
+  pile p
+  tant que(liste != NULL)
+  {
+    empiler(p, L.valeur)
+    L = L.suivant
+  }
+  tant que !vide(p)
+  {
+    afficher(dépiler(P))
+  }
+}
+
+def d(p, q)
+{
+  si (p == 0)
+  {
+    return 1
+  }
+  si (q==0)
+  {
+    return 0
+  }
+  si (q==1)
+  {
+    return p
+  }
+  si (p<q)
+  {
+    return d(p, p)
+  }
+  return d(p-q, q) + d(p, q-1)
+}

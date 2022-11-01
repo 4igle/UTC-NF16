@@ -1,0 +1,31 @@
+Algo A
+o(min(n, m))
+
+Algo B
+o(max(n, m))
+
+Algo C
+n + m
+
+Algo D
+n * m
+
+
+
+x * 2 + x * 4 + x * 8
+
+
+
+1 - 2^(x) / 1 - 2
+2 ^ x -> récurrence
+non trivial
+
+
+
+3)
+Algo 1
+N appels récursifs
+A(k + 1) = 1 + A(k) = 1 + k
+
+Algo 2
+1 + log2(16)
